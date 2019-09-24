@@ -1,0 +1,11 @@
+.container-drink {
+    min-height: 80vh;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+

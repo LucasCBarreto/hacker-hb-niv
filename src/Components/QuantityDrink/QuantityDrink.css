@@ -1,0 +1,18 @@
+.quantity-drinks {
+    font-family: 'Roboto';
+    font-size: 12rem;
+    -webkit-text-stroke-width: 8px;
+    -webkit-text-stroke-color: #2870b2;
+}
+
+@media (min-width: 992px) {
+    .quantity-drinks {
+        font-size: 18rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .quantity-drinks {
+        font-size: 20rem;
+    }
+}

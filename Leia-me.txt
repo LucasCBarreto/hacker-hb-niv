@@ -1,0 +1,21 @@
+
+########################### H4CK3R ########################### 
+
+1.Utilize a biblioteca do Redux + React-Redux - Link: https://redux.js.org/
+2.Implementar a lógica na pasta Store
+
+Ferramenta recomendada para programar neste caso é o Visual Studio Code: 
+
+Após implementar a lógica para contar as cervejas executar os comandos:
+
+Instalar o Yarn: https://yarnpkg.com/en/docs/install#windows-stable
+
+Executar estes comandos na pasta raiz do projeto.
+
+npm install
+npm run build
+yarn global add serve
+serve -s build 
+
+
+############################################################## 

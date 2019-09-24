@@ -1,0 +1,41 @@
+.sections-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sections-buttons button {
+    color: white;
+    background-color: #2870b2; 
+    border: none;
+    width: 45%;
+    height: 2.5rem;
+    font-size: 20px;
+    border-radius: 2rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .sections-buttons button {
+        width: 30%;
+    }
+}
+
+@media (min-width: 992px) {
+    .sections-buttons button {
+        width: 15%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sections-buttons {
+        width: 75%;
+    }
+
+    .sections-buttons button {
+        width: 15%;
+        height: 3rem;
+    }
+}
