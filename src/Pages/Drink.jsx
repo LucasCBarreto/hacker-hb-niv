@@ -24,8 +24,8 @@ const Drink = (
             count={quantityDrinks} />
 
           <Buttons 
-            drinksResetCount={() => {}}
-            drinksCount={() => {}} />
+            drinksResetCount={drinksResetCount}
+            drinksCount={drinksCount} />
       </div>
     </Section>
     

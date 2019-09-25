@@ -1,16 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-/*import { Provider } from 'react-redux'
-import Store from './Store'*/
+import { createStore } from 'redux'
+import counter from './Store'
 import App from './App'
 import './Style.css'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
+const store = createStore(counter)
+
+const render = () => ReactDOM.render(
     // <Provider store={Store}>
-        <App />
+    <App store={store}/>
     // </Provider>,
     ,document.getElementById('root')
 );
 
+render()
+store.subscribe(render)
 serviceWorker.register();
