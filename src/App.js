@@ -14,6 +14,5 @@ export default class App extends Component {
       drinksCount={() => this.store.dispatch({ type: 'INCREMENT' })}
       drinksResetCount={() => this.store.dispatch({ type: 'RESET' })}
     /> 
-
   }
 }
